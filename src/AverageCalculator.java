@@ -13,7 +13,7 @@ public class AverageCalculator {
             if (num == null) {
                 throw new NullPointerException("Array contains a null element");
             }
-            sum += Double.parseDouble(num); // Convert string to double
+            sum += Double.parseDouble(num); // 
             count++;
         }
 
@@ -25,13 +25,13 @@ public class AverageCalculator {
 
         System.out.print("Enter the number of elements: ");
         int n = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline
+        scanner.nextLine(); // 
 
         String[] values = new String[n];
 
         System.out.println("Enter " + n + " numbers:");
         for (int i = 0; i < n; i++) {
-            values[i] = scanner.nextLine(); // Read input as a string
+            values[i] = scanner.nextLine(); 
         }
 
         try {
